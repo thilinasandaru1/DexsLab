@@ -74,6 +74,22 @@ header {
 }
 //end header
 
+//features section
+.features {
+    background-color: $dark-blue-2;
+
+    h5 {
+        font-size: 2.5em;
+        font-weight: 700;
+    }
+
+    p {
+        letter-spacing: 0.5px;
+        margin-top: -4px;
+    }
+}
+//end features section
+
 //responsive
 
 @import 'responsive';

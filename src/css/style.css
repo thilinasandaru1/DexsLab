@@ -43,6 +43,15 @@ header {
         display: inline-block;
         margin-top: -4px; }
 
+.features {
+  background-color: #0084b8; }
+  .features h5 {
+    font-size: 2.5em;
+    font-weight: 700; }
+  .features p {
+    letter-spacing: 0.5px;
+    margin-top: -4px; }
+
 @media (max-width: 767px) {
   header h1 {
     padding-top: 50px !important; }
