@@ -1,0 +1,79 @@
+@import 'variables';
+
+@import url('https://fonts.googleapis.com/css?family=Asap:400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Great+Vibes');
+
+//basic styles
+* {
+    font-family: $main-font-family;
+}
+
+.btn {
+    font-family: $main-font-family;
+    font-weight: 700;
+    background-color: $light-blue;
+    border: 0;
+    padding: 12px 32px;
+
+    &:hover {
+        background-color: darken($color: $light-blue, $amount: 5)
+    }
+}
+
+
+//header
+header {
+    background-image: url(../img/header_bg.png);
+    background-repeat: no-repeat;
+    background-size: cover; 
+    background-color: $header-blue;
+    color: #fff;
+
+    h1 {
+        padding-top: 200px;
+        font-weight: 700;
+        letter-spacing: 2px;
+    }
+
+    p {
+        letter-spacing: 1px;
+    }
+
+    .sign {
+        margin-top: -8px;
+        span {
+            font-family: $script-font-family;
+            font-size: 1.3em;
+        }
+    }
+
+    .main {
+        max-height: 650px;
+
+        img {
+            margin-bottom: -45px;
+        }
+    }
+
+    .social {
+        height: 100px;
+        background-color: rgba($color: $dark_blue, $alpha: 0.7);
+        border-top: 2px solid $dark_blue;
+
+        p {
+            font-size: 0.8em;
+            
+            span > img {
+                display: inline-block;
+                margin-top: -4px;
+            }
+        }
+    }
+
+    
+}
+//end header
+
+//responsive
+
+@import 'responsive';

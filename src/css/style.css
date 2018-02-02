@@ -1,0 +1,58 @@
+@import url("https://fonts.googleapis.com/css?family=Asap:400,400i,700");
+@import url("https://fonts.googleapis.com/css?family=Great+Vibes");
+* {
+  font-family: "Asap", sans-serif; }
+
+.btn {
+  font-family: "Asap", sans-serif;
+  font-weight: 700;
+  background-color: #49b9e6;
+  border: 0;
+  padding: 12px 32px; }
+  .btn:hover {
+    background-color: #33b0e3; }
+
+header {
+  background-image: url(../img/header_bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #00a3e4;
+  color: #fff; }
+  header h1 {
+    padding-top: 200px;
+    font-weight: 700;
+    letter-spacing: 2px; }
+  header p {
+    letter-spacing: 1px; }
+  header .sign {
+    margin-top: -8px; }
+    header .sign span {
+      font-family: "Great Vibes", cursive;
+      font-size: 1.3em; }
+  header .main {
+    max-height: 650px; }
+    header .main img {
+      margin-bottom: -45px; }
+  header .social {
+    height: 100px;
+    background-color: rgba(23, 155, 207, 0.7);
+    border-top: 2px solid #179bcf; }
+    header .social p {
+      font-size: 0.8em; }
+      header .social p span > img {
+        display: inline-block;
+        margin-top: -4px; }
+
+@media (max-width: 767px) {
+  header h1 {
+    padding-top: 50px !important; }
+  header .btn {
+    margin-bottom: 20px !important; } }
+
+@media (max-width: 991px) {
+  header h1 {
+    padding-top: 100px; } }
+
+@media (max-width: 1182px) {
+  header .main img {
+    margin-bottom: -25px; } }

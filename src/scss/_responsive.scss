@@ -1,0 +1,47 @@
+// Extra small devices (portrait phones, less than 576px)
+@media (max-width: 575px) {  }
+
+// Small devices (landscape phones, less than 768px)
+@media (max-width: 767px) {
+    //header 
+    header{ 
+        h1 {
+            padding-top: 50px !important;
+        }
+
+        .btn {
+            margin-bottom: 20px !important;
+        }
+    }
+}
+
+// Medium devices (tablets, less than 992px)
+@media (max-width: 991px) {
+    //header 
+    header{ 
+        h1 {
+            padding-top: 100px;
+        }
+    }
+}
+
+//custom breakpoint
+@media (max-width: 1182px) {
+    //header
+    header {
+        .main {
+            img {
+                margin-bottom: -25px;
+            }
+        }
+    }
+
+}
+
+// Large devices (desktops, less than 1200px)
+@media (max-width: 1199px) {
+    
+}
+
+// Extra large devices (large desktops)
+// No media query since the extra-large breakpoint has no upper bound on its width
