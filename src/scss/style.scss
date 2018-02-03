@@ -183,6 +183,24 @@ header {
 }
 //end our team
 
+//share
+.message {
+    background-color: $yellow;
+    h4 {
+        font-weight: 700;
+        i {
+            padding-left: 20px;
+            font-size: 1.3em;
+            display: inline-block;
+            margin-top: px;
+            position: relative;
+            top: 3px;
+        }
+    }
+    
+}
+//end share
+
 
 //responsive
 

@@ -111,6 +111,18 @@ header {
       color: #007fb1;
       text-decoration: none; }
 
+.message {
+  background-color: #f1c40f; }
+  .message h4 {
+    font-weight: 700; }
+    .message h4 i {
+      padding-left: 20px;
+      font-size: 1.3em;
+      display: inline-block;
+      margin-top: px;
+      position: relative;
+      top: 3px; }
+
 @media (max-width: 767px) {
   header h1 {
     padding-top: 50px !important; }
