@@ -21,6 +21,12 @@
 }
 
 
+.details-header {
+    font-weight: 700;
+    font-size: 3em;
+}
+
+
 //header
 header {
     background-image: url(../img/header_bg.png);
@@ -89,6 +95,58 @@ header {
     }
 }
 //end features section
+
+//details
+.details {
+    .olg {
+        padding-top: 130px;
+        
+        img {
+            margin-top: 60px;
+        }
+
+        .quote {
+            background-color: $grey;
+            padding: 30px 30px;
+            padding-bottom: 10px;
+            border-radius: 10px;
+            font-weight: 400;
+            font-style: italic;
+            color: $dark-grey;
+            width: 490px;
+
+            img {
+                position: absolute;
+                top: 240px;
+                right: 40px;
+                background-color: $brown;
+                border-radius: 50%;
+                width: 55px;
+                height: 55px;
+                border: 5px solid #fff;
+            }
+        }
+
+        .quote-source {
+            color: $header-blue;
+            letter-spacing: 0.5px;
+            padding-left: 30px;
+            padding-top: 15px;
+        }
+    }
+
+
+    .ffp {
+        padding-top: 120px;
+
+        h2 {
+            padding-top: 50px;
+        }
+    }
+
+
+}
+//end details
 
 //responsive
 

@@ -12,6 +12,10 @@
   .btn:hover {
     background-color: #33b0e3; }
 
+.details-header {
+  font-weight: 700;
+  font-size: 3em; }
+
 header {
   background-image: url(../img/header_bg.png);
   background-repeat: no-repeat;
@@ -52,16 +56,67 @@ header {
     letter-spacing: 0.5px;
     margin-top: -4px; }
 
+.details .olg {
+  padding-top: 130px; }
+  .details .olg img {
+    margin-top: 60px; }
+  .details .olg .quote {
+    background-color: #ecf0f1;
+    padding: 30px 30px;
+    padding-bottom: 10px;
+    border-radius: 10px;
+    font-weight: 400;
+    font-style: italic;
+    color: #545555;
+    width: 490px; }
+    .details .olg .quote img {
+      position: absolute;
+      top: 240px;
+      right: 40px;
+      background-color: #e6ba8c;
+      border-radius: 50%;
+      width: 55px;
+      height: 55px;
+      border: 5px solid #fff; }
+  .details .olg .quote-source {
+    color: #00a3e4;
+    letter-spacing: 0.5px;
+    padding-left: 30px;
+    padding-top: 15px; }
+
+.details .ffp {
+  padding-top: 120px; }
+  .details .ffp h2 {
+    padding-top: 50px; }
+
 @media (max-width: 767px) {
   header h1 {
     padding-top: 50px !important; }
   header .btn {
-    margin-bottom: 20px !important; } }
+    margin-bottom: 20px !important; }
+  .details .olg .quote {
+    width: 100%;
+    margin: 0 auto; }
+    .details .olg .quote img {
+      display: none; }
+  .olg, .ffp {
+    padding-top: 0px !important;
+    text-align: center; }
+  .ffp .btn {
+    margin-bottom: 35px; } }
 
 @media (max-width: 991px) {
   header h1 {
-    padding-top: 100px; } }
+    padding-top: 100px; }
+  .details .olg .quote {
+    width: 350px; }
+    .details .olg .quote img {
+      top: 365px !important;
+      right: -34px !important; } }
 
 @media (max-width: 1182px) {
   header .main img {
-    margin-bottom: -25px; } }
+    margin-bottom: -25px; }
+  .details .olg .quote img {
+    top: 240px;
+    right: -45px; } }
