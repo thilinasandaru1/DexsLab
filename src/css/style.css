@@ -123,6 +123,33 @@ header {
       position: relative;
       top: 3px; }
 
+footer {
+  background-color: #d8af0c;
+  padding-top: 50px;
+  padding-bottom: 20px; }
+  footer h6 {
+    font-size: 1.18em;
+    font-weight: 700; }
+    footer h6 i {
+      font-size: 2em !important;
+      position: relative;
+      top: 5px; }
+      footer h6 i.fa-envelope {
+        margin-right: 10px; }
+      footer h6 i.fa-skype {
+        margin-right: 10px; }
+      footer h6 i.fa-map-marker {
+        margin-right: 20px; }
+  footer div {
+    padding-left: 50px; }
+  footer .sign {
+    margin-top: -8px; }
+    footer .sign span a, footer .sign span {
+      font-family: "Great Vibes", cursive;
+      color: #fff;
+      text-decoration: none;
+      font-size: 1.166em; }
+
 @media (max-width: 767px) {
   header h1 {
     padding-top: 50px !important; }

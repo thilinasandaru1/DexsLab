@@ -201,6 +201,52 @@ header {
 }
 //end share
 
+//footer
+footer {
+    background-color: $dark-yellow;
+    padding-top: 50px;
+    padding-bottom: 20px;
+
+    h6 {
+        font-size: 1.18em;
+        font-weight: 700;
+
+        i {
+            font-size: 2em !important;
+            position: relative;
+            top: 5px;
+
+            &.fa-envelope {
+                margin-right: 10px;
+            }
+
+            &.fa-skype {
+                margin-right: 10px;
+            }
+
+            &.fa-map-marker {
+                margin-right: 20px;
+            }
+        }
+    }
+
+    div {
+        padding-left: 50px;
+    }
+
+    .sign {
+        margin-top: -8px;
+        span a, span {
+            font-family: $script-font-family;
+            color: #fff;
+            text-decoration: none;
+            font-size: 1.166em;
+        }
+    }
+    
+}
+//end footer
+
 
 //responsive
 
