@@ -90,6 +90,27 @@ header {
   .details .ffp h2 {
     padding-top: 50px; }
 
+.our-team {
+  background-color: #ecf0f1;
+  padding-top: 120px;
+  padding-bottom: 120px; }
+  .our-team h3 {
+    font-weight: 700; }
+  .our-team h4 {
+    font-style: italic;
+    font-size: 1.4em;
+    color: #545555; }
+  .our-team p {
+    color: #545555;
+    padding-left: 3.7em;
+    padding-right: 3.7em;
+    min-height: 9em; }
+  .our-team a {
+    color: #00a3e4; }
+    .our-team a:hover {
+      color: #007fb1;
+      text-decoration: none; }
+
 @media (max-width: 767px) {
   header h1 {
     padding-top: 50px !important; }
@@ -104,7 +125,14 @@ header {
     padding-top: 0px !important;
     text-align: center; }
   .ffp .btn {
-    margin-bottom: 35px; } }
+    margin-bottom: 35px; }
+  .our-team {
+    padding-top: 20px;
+    padding-bottom: 40px; }
+    .our-team p {
+      min-height: 4em !important; }
+    .our-team img {
+      margin-top: 40px; } }
 
 @media (max-width: 991px) {
   header h1 {
@@ -113,7 +141,11 @@ header {
     width: 350px; }
     .details .olg .quote img {
       top: 365px !important;
-      right: -34px !important; } }
+      right: -34px !important; }
+  .our-team p {
+    padding-left: 0;
+    padding-right: 0;
+    min-height: 10em; } }
 
 @media (max-width: 1182px) {
   header .main img {

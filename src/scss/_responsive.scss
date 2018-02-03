@@ -37,6 +37,20 @@
             margin-bottom: 35px;
         }
     }
+
+    //our team
+    .our-team {
+        padding-top: 20px;
+        padding-bottom: 40px;
+
+        p {
+            min-height: 4em !important;
+        }
+
+        img {
+            margin-top: 40px;
+        }
+    }
 }
 
 // Medium devices (tablets, less than 992px)
@@ -58,6 +72,15 @@
                     right: -34px !important;
                 }
             }
+        }
+    }
+
+    //our team
+    .our-team {
+        p {
+            padding-left: 0;
+            padding-right: 0;
+            min-height: 10em;
         }
     }
 }
