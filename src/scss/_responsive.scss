@@ -83,6 +83,17 @@
             min-height: 10em;
         }
     }
+
+    //footer
+    footer {
+        h6 {
+            font-size: 1em !important;
+        }
+
+        div {
+            padding-left: 0px;
+        }
+    }
 }
 
 //custom breakpoint
