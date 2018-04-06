@@ -14,3 +14,6 @@ npm install
 # Serve on localhost:3000
 npm start
 ```
+### Author and License
+Thilina Sandaruwan [thilinasandaru1](https://www.thilinasandaru1.com/)
+This project is licensed under the MIT License
