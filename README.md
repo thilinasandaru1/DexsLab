@@ -1,1 +1,1 @@
-![Dexters Lab](/DexsLab/screenshot/screenshot.pngraw=true)
+![Dexters Lab](DexsLab/screenshot/screenshot.pngraw=true)
