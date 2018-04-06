@@ -15,6 +15,6 @@ npm install
 npm start
 ```
 ### Author and License
-[thilinasandaru1](https://www.thilinasandaru1.com/)
+**Author**: [Thilina Sandaruwan](https://www.thilinasandaru1.com/)
 
 This project is licensed under the MIT License
