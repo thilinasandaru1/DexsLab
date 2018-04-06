@@ -8,7 +8,8 @@ This web site use sass preprocessor and gulp task task runner.
 You can simply start developing and run dev server using below commands.
 
 ```bash
+# Install dependencies
 npm install
-
+# Serve on localhost:3000
 npm start
 ```
